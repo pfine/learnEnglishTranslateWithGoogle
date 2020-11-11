@@ -1,0 +1,10 @@
+
+one, jeden
+
+ two, dwa
+    three, trzy
+
+fish and cheeps, ryba z frytkami
+don’t like, nie lubię
+ other
+        none
