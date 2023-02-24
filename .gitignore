@@ -7,3 +7,4 @@ output/*
 source.txt
 sourceAll.txt
 venv/
+.gitconfig
