@@ -5,7 +5,7 @@ import sys, os, io, time
 
 
 def loadListFromTxtFile():
-    text_file = open("source-en.txt", "r")  # <== SOURCE TEXT LIST !!!
+    text_file = open("source.txt", "r")  # <== SOURCE TEXT LIST !!!
     lines = text_file.readlines()
     resultLines = []
 
@@ -17,6 +17,7 @@ def loadListFromTxtFile():
         if len(line) != 0:
             resultLines.append(line)
     return resultLines
+
 
 def main():
     listFromFile = loadListFromTxtFile()
@@ -32,8 +33,7 @@ def main():
         # print(' > listFromFile[i] = ', listFromFile[i])
         line2translate = listFromFile[i].split(",")[0]  # take only fitst part to comma
         print(" > line2translate = ", line2translate)
-        tts = gTTS(text=line2translate, lang="en", slow=False)
-        # tts = gTTS(text=text, lang='en', slow=False)
+        tts = gTTS(text=line2translate, lang="ru", slow=False)
         try:
             tts.save("output/" + line2translate + ".mp3")  # <== OUTPUT DIRECTORY !!!
         except ValueError as e:
