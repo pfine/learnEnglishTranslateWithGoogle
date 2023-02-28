@@ -32,6 +32,7 @@ def main():
         # print(' > listFromFile[i] = ', listFromFile[i])
         line2translate = listFromFile[i].split(",")[0]  # take only fitst part to comma
         print(" > line2translate = ", line2translate)
+        # lang can be find here https://gtts.readthedocs.io/en/v2.2.1/_modules/gtts/lang.html
         tts = gTTS(text=line2translate, lang="en", slow=False)
         # tts = gTTS(text=text, lang='en', slow=False)
         try:
