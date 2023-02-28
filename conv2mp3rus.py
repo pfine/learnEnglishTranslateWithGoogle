@@ -5,7 +5,7 @@ import sys, os, io, time
 
 
 def loadListFromTxtFile():
-    text_file = open("source.txt", "r")  # <== SOURCE TEXT LIST !!!
+    text_file = open("source-rus.txt", "r")  # <== SOURCE TEXT LIST !!!
     lines = text_file.readlines()
     resultLines = []
 
