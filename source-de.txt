@@ -1,0 +1,96 @@
+null, zero 0
+eins, jeden 1
+zwei, dwa 2
+drei, trzy 3
+vier, cztery 4
+fünf, pięć 5
+sechs, sześć 6
+sieben, siedem 7
+acht, osiem 8
+neun, dziewięć 9
+zehn, dziesięć 10
+elf, jedenaście 11
+zwölf, dwanaście 12
+dreizehn, trzynaście 13
+vierzehn, czternaście 14
+fünfzehn, piętnaście 15
+sechzehn, szesnaście 16
+siebzehn, siedemnaście 17
+achtzehn, osiemnaście 18
+neunzehn, dziewiętnaście 19
+zwanzing, dwadzieścia 20
+
+Entschuldigung!, Przepraszam
+Wie bitte?, Słucham?
+Danke!, Dziękuje
+Bitte!, Prosze
+Hi!, cześć
+Hallo!, cześć (tel)
+Ciao!, cześć (włoskie)
+Gruß dich!, witaj!
+Guten Morgen!, dzień dobry (rano)
+Guten Tag!, dzień dobry (w dzień)
+Guten Abend!, dobry wieczór
+Auf Wiederzehen!, do widzenia
+Guten Nacht!, dobranoc
+Bis morgen!, do jutra (rana)
+Bis dann!, do zobaczenia
+Tschüs!, cześć (pożegnanie)
+gut, dobry/dobra
+der Tag, dzień
+der Abend, wieczów
+die Nacht, noc
+der Mongern, jutro/poranek
+
+Wie geht's?, Co słychać?
+Wie geht es dir?, Jak u Ciebie?
+Wie geht es Ihnen?, Co u Pani/Pana/Państwa słychać
+Super!, super
+Prima!, świetnie
+Gut!, dobrze
+Sehr gut!, bardzo dobrze
+Es geht!, jako tako
+So lala, tak sobie
+Nicht gut, nie dobrze
+Schlecht, żle
+
+Wie heißt du?, jak się nazywasz
+Ich bin Hania, ja jestem Hania
+Ich heiße Hania, mam na imie Hania
+die Hausaufgabe, zadanie domowe/praca domowa
+Woher kommst du?, skąd pochpdzisz
+Ich komme aus Pollen, pochodzę z polski
+Wo wohnst du?, gdzie mieszkasz
+Ich wohne in Krakau, mieszkam w krakowie
+Was magst du?, Co lubisz?
+Ich mag tanzen, lubie tańczyc
+Ich mag Musik, lubie muzyke
+Ich mag Volleyball, lubie grać w siatkówkę 
+auch, również
+
+tanzen, tańczyć
+die Musik, muzyka
+der Volleyball, siatkówka
+Wie alt bist du?, Ile masz lat
+Ich bin 13 Jahre alt, mam 13 lat
+… und du?, a ty?
+sein, być
+wohnen, mieszkać
+kommen, pochodzić
+mögen, lubić
+heißen, nazywać się
+
+ich bin, ja jestem
+du bist, ty jesteś
+er ist, on jest
+sie ist, ona jest
+es ist, ono jest
+wir sind, my jesteśmy
+ihr seid, wy jesteście
+Sie sind, oni/Pan/Pani/Państwo są
+
+wo?, gdzie?
+wie?, jak?
+woher?, skąd?
+was?, co?
+wer?, kto?

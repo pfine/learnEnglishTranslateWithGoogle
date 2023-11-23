@@ -1,2 +1,3 @@
-one, jeden
-two, dwa
+belong to, należeć
+consist of, składać się z
+depend on, zależeć od
