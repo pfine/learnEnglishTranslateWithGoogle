@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 
-from gtts import gTTS
 import sys
-import os
-import io
-import time
+
+# import os
+# import io
+# import time
+from gtts import gTTS
 
 
 def loadListFromTxtFile():
@@ -34,14 +35,31 @@ def main():
     while i >= 0:
         # print(' > i = ', i)
         # print(' > listFromFile[i] = ', listFromFile[i])
-        line2translate = listFromFile[i].split(
-            ",")[0]  # take only fitst part to comma
+        line2translate = listFromFile[i].split(",")[0]  # take only fitst part to comma
         print(" > line2translate = ", line2translate)
+
+        # If line start with # - skip it
+        if line2translate.startswith("#"):
+            i = i - 1
+            # print(' > i = ', i)
+            print(" > line2translate = ", line2translate, " - SKIPPED")
+            continue
+
         # lang can be find here https://gtts.readthedocs.io/en/v2.2.1/_modules/gtts/lang.html
         tts = gTTS(text=line2translate, lang="ru", slow=False)
+
+        # File name used to save
+        save_file_name = ""
+        if "/" in line2translate:
+            save_file_name = line2translate.replace("/", "")
+        elif "\\" in line2translate:
+            save_file_name = line2translate.replace("\\", "")
+        else:
+            save_file_name = line2translate
+
         try:
             # <== OUTPUT DIRECTORY !!!
-            tts.save("output/" + line2translate + ".mp3")
+            tts.save("output/" + save_file_name + ".mp3")
         except ValueError as e:
             print(" >>> e = ", e)
             print(" > line2translate = ", line2translate, " - failed, so repeat")
